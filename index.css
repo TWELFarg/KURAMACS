@@ -1,0 +1,234 @@
+. {
+    margin: 0%;
+    padding: 0%;
+    display: flexbox;
+}
+
+.portada {
+    image-rendering: auto;
+    background-size: contain;
+    border: 5px solid orangered;
+    background-size: contain;
+}
+
+body {
+    background: url(fondogif.gif);
+    background-repeat: inherit;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.kuama {
+    background-color: orangered;
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+aside {
+    background-color: black;
+    border: 5px solid orangered;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav {
+    background-color: black;
+    width: 70%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+#buttom {
+    padding: 0%;
+    display: flex;
+}
+
+#buttom li {
+    display: inline;
+}
+
+#buttom li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background: orangered;
+    color: #fff;
+    border: 5px solid black;
+}
+
+#buttom li a:hover {
+    background-color: black;
+    margin-top: -2px;
+    padding-bottom: 12px;
+    opacity: 0.1;
+
+}
+
+#select {
+    padding: 0%;
+    display: flex;
+}
+
+#select li {
+    display: inline;
+}
+
+#select li img {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background: black;
+    color: #fff;
+    border: 5px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+#select li img:hover {
+    background-color: orangered;
+    margin-top: -2px;
+    padding: 12px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.liclass {
+    padding: 0%;
+    margin-left: 40px;
+
+}
+
+#slider {
+    contain: layout;
+    padding: 0%;
+    display: flex;
+}
+
+#outfit {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 500px;
+    max-width: 500px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+h1 {
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    color: #fff;
+    background-color: orangered;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    height: 30%;
+    float: right;
+    overflow: visible;
+    margin: 1%;
+    width: 40%;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.whats {
+    padding: 0px;
+    font-size: 10px;
+    width: 300px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.whats:hover {
+    opacity: 0.7;
+}
+
+.whats-whatsapp {
+    background: #45bbff;
+    color: white;
+}
+
+.imgcontacto {
+    display: flex;
+    flex-direction:row;
+    width: 170px;
+    height: 161px;
+}
+
+footer {
+    background-color: orangered;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    border: 1px solid orangered;
+
+}
+
+.formulario, h2{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid orangered;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border: 1px solid orangered;
+    background-color: white;
+    color: BLACK;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#divcontacto {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.cboton{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: outset orangered;
+    margin: 10px;
+}
